@@ -1,0 +1,178 @@
+body{
+  font-family: "Montserrat";
+
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 4.5rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+
+h3{
+  font-family: "Montserrat-bold";
+
+}
+
+p{
+  color: grey;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+
+
+
+/* navigation bar */
+
+.navbar{
+  padding-bottom: 5.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+  z-index: 1;
+  position: absolute;
+}
+
+
+/* feture section */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  height: 80px;
+  width: 80px;
+  margin-bottom: 50px;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* TESTIMONIAL */
+
+#testimonials{
+  text-align: center;
+
+  background-color: #ff4c68;
+  color: white;
+
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 40px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* PRESS */
+#press{
+  background-color: #ff4c68;
+  padding-bottom: 4%;
+  text-align: center;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+
+  .title-image{
+    position: static;
+    margin-top: 70px;
+    transform: rotate(0);
+  }
+}
+  /* FOOTER */
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.download-button{
+  margin: 80px 10px;
+
+
+}
+
+
+#footer{
+  padding: 4% 15%;
+  text-align: center;
+
+  color: grey;
+  font-size: 1rem;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
